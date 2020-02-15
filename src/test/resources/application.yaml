@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:~/fiapcervejariabatch;DB_CLOSE_ON_EXIT=FALSE
+    url: jdbc:h2:mem:batchtest;
     username: fiap
     password: fiap
 

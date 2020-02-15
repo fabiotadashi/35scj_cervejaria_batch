@@ -21,6 +21,7 @@ dependencies {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 	testImplementation 'org.springframework.batch:spring-batch-test'
+	testImplementation 'org.awaitility:awaitility:4.0.2'
 }
 
 test {
